@@ -17,7 +17,7 @@ Be aware that `emulated_hue` doesn't work for new users of **Google Home** with 
 
 The `emulated_hue` integration provides a virtual Philips Hue bridge, written entirely in software that allows services that work with the Hue API to interact with Home Assistant
 entities. The driving use case behind for functionality is to allow Home Assistant to work with an Amazon Echo or Google Home with no setup cost outside of configuration changes.
-The virtual bridge can turn entities on/off or change the brightness of dimmable lights. The volume level of media players can be controlled as brightness.
+The virtual bridge can turn entities on/off or change the brightness of dimmable lights. The virtual bridge can also change the color temperature of tunable lights as well as change the color of RGB or RGBW lights. The volume level of media players can be controlled as brightness.
 
 <div class='note'>
 A physical Hue Bridge is required for Philips Hue lights to function - this virtual bridge will not replace a physical bridge. Instead, it allows Home Assistant to represent non-Philips Hue devices to Amazon Echo as Philips Hue devices, which Amazon Echo can control with built-in support.
